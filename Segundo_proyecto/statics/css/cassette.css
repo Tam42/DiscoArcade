@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("../../lib/fuentes/Pacifico-Regular.ttf");
+}
+@font-face {
+  font-family: "AmaticSC";
+  src: url("../../lib/fuentes/AmaticSC-Regular.ttf");
+}
+.bienvenido{
+  font-family: "Pacifico";
+  font-size: 60px;
+  color: #000000;
+  position: absolute;
+  top: 45px;
+  left: 470px;
+}
+a[href="#"]{
+  font-size: 30px;
+  color: #FDEBD0;
+  text-decoration: none;
+  position: absolute;
+  top: 250px;
+  left: 615px;
+}
+body{
+  background-color: #000000;
+  background-image: url(../media/cassette.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 900px auto;
+}
+p{
+  font-family: "AmaticSC";
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}

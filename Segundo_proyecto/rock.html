@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../statics/css/rock.css" type="text/css">
+  </head>
+  <body>
+    <img src="https://i.pinimg.com/originals/4f/ac/34/4fac34c4d540b45af63e7a7f1aaa6728.gif">
+    <div class="formulario">
+      <div class="etiqueta">
+        Â¡A divertirse!
+      </div>
+      <form method="post" action="../dynamics/php/conectar.php">
+        <span>Usuario: </span><br><input type="text" name="usuario" class="input" pattern="[a-zA-ZÁÉÍÓÚÑáéíóúñ0-9]{3,20}" required><br><br>
+        <span>Contraseña: </span><br><input type="password" name = "contra" class="input1" pattern="^((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!-.]).{10,25})" title="La contraseña debe contener al menos 10 caracteres, usando mayúsculas, minúsculas, números y caracteres especiales, al menos dos de los mencionados." required>
+        <input type="submit" value="  " class="enviar">
+      </form>
+    </div>
+
+  </body>
+</html>
