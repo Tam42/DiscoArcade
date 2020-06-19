@@ -8,14 +8,14 @@ Fiebre De Programar Por La Noche.<br>
 **Organizacion:**<br>
 |Integrante|Actividades|
 |----------|-----------|
-|Tamara Arenas| Disco Crush, Base de Datos, Pac-man.|
-|Giovanni Garfias|Pac-man, Pagina Principal, Pagina Inicial, Base de Datos, Paginas Intermadias.|
-|Montse Báez| Paginas Intermadias, Base de Datos, Pac-man.|
+|Tamara Arenas| Disco Crush, Base de Datos, Pac-man, Bocetos, Animaciones, Página de Inicio, Conexión Base de Datos.|
+|Giovanni Garfias|Pac-man, Index, Pagina de Incio, Base de Datos, Paginas Intermedias, Bocetos, Sesión, Conexión Base de Datos.|
+|Montse Báez| Paginas Intermedias, Base de Datos, Pac-man, README, Conexión Base de Datos, Sesión.|
 
 
 **Guia de Instalación del Proyecto:**<br>
-Para poder utilizar esta pagina se debera descargar XAMPP en "https://www.apachefriends.org/es/index.html"<br>
-Antes de descargar los archivos lo primero es descargar el repositorio dentro de la carpeta "xampp" en "htdocs". En ella se encontrarán las siguientes carpetas secundarias y su contenido:<br>
+Para poder utilizar esta página se deberá descargar XAMPP en "https://www.apachefriends.org/es/index.html"<br>
+Antes de descargar los archivos lo primero a realizar, es descargar el repositorio dentro de la carpeta "xampp" en "htdocs". En ella se encontrarán las siguientes carpetas secundarias y su contenido:<br>
 |Carpetas Secundarias | Carpetas Terciarias o acrhivos|
 |---------------------|-------------------------------|
 |docs| Se encontrará el respaldo de la Base de Datos (lleva la terminacion ".sql"). Al crear la base en su ordenador, deberá llevar el nombre "DB_DiscoArcade".
@@ -63,4 +63,4 @@ Todo el proyecto está inspirado en la epoca de los 80´s, por ello todo se mues
 **Comentarios:**<br>
 :floppy_disk: Se tenía planeado realizar un tercer juego "El Buscaminas", desafortunadamente no fue posible por cuestiones de tiempo y logistica del equipo.<br>
 :floppy_disk: Tampoco se pudo realizar la validación de la contraseña en el usuario existente.<br> 
-:floppy_disk: Tambien faltaron las opciones de fondo para los juegos.
+:floppy_disk: También faltaron las opciones de fondo para los juegos.
