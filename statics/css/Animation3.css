@@ -2,6 +2,8 @@ body{
     background-color: black;
 }
 
+
+/*Inicia animación*/
 div{
     animation-name: move;
     animation-duration: 5s;
@@ -15,6 +17,7 @@ div{
     width: 100%;
 }
 
+/*Ejecuta animación*/
 @keyframes move{
     from{
         left: 0px;

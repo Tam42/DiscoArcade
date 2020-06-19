@@ -1,3 +1,95 @@
+/*Elementos*/
+button{
+        border-radius: 50%;
+        height: 70px;
+        margin-top: 3%;
+        padding: 20px;
+        position: absolute;
+        transition: all 0.5s ease;
+        width: 70px;
+    }
+
+    span
+    {
+        color:white;
+        margin-top: 1%;
+        margin-left: 30%;
+        position: absolute;
+        left: 10px;
+    }
+    body{
+      background-image: url(https://image.freepik.com/vector-gratis/pared-ladrillo-luz-neon_47243-601.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      width: 100%;
+      height: 100vh;
+    }
+    h3{
+      color: white;
+      margin-left: 0%;
+      margin-top: 1%;
+      position: absolute;
+    }
+    h1{
+      color: white;
+      margin-left: 0%;
+      margin-top: 3%;
+      position: absolute;
+    }
+
+/*Clases*/
+.content{
+  display: flex;
+  height: 20vh;
+  margin-top: 5%;
+  position: relative;
+} 
+
+.grid {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    }
+
+    .grid div {
+        height: 70px;
+        width: 70px;
+    }
+
+    .one{
+        background-image: url(../images/disk.png);
+        background-size: cover;
+    }
+    .two{
+        background-image: url(../images/control.png);
+        background-size: cover;
+    }
+    .three{
+        background-image: url(../images/game.png);
+        background-size: cover;
+    }
+    .four{
+        background-image: url(../images/juego.png);
+        background-size: cover;
+    }
+    .five{
+        background-image: url(../images/ra.png);
+        background-size: cover;
+    }
+    .six{
+        background-image: url(../images/rubik.png);
+        background-size: cover;
+    }
+    .seven{
+        background-image: url(../images/console.png);
+        background-size: cover;
+    }
+/*Ides*/
 #reiniciar
 {
   background-color: #00f462;
@@ -62,91 +154,5 @@
 {
   margin-left: -20%;
 }
-.content{
-  position: relative;
-  display: flex;
-  margin-top: 5%;
-  height: 20vh;
-}
-.grid {
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    height: 560px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 560px;
-    }
 
-    .grid div {
-        height: 70px;
-        width: 70px;
-    }
-
-    .one{
-        background-image: url(../images/disk.png);
-        background-size: cover;
-    }
-    .two{
-        background-image: url(../images/control.png);
-        background-size: cover;
-    }
-    .three{
-        background-image: url(../images/game.png);
-        background-size: cover;
-    }
-    .four{
-        background-image: url(../images/juego.png);
-        background-size: cover;
-    }
-    .five{
-        background-image: url(../images/ra.png);
-        background-size: cover;
-    }
-    .six{
-        background-image: url(../images/rubik.png);
-        background-size: cover;
-    }
-    .seven{
-        background-image: url(../images/console.png);
-        background-size: cover;
-    }
-
-    button{
-        border-radius: 50%;
-        height: 70px;
-        margin-top: 3%;
-        padding: 20px;
-        position: absolute;
-        transition: all 0.5s ease;
-        width: 70px;
-    }
-
-    span
-    {
-        color:white;
-        margin-top: 1%;
-        margin-left: 30%;
-        position: absolute;
-        left: 10px;
-    }
-    body{
-      background-image: url(https://image.freepik.com/vector-gratis/pared-ladrillo-luz-neon_47243-601.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: block;
-      width: 100%;
-      height: 100vh;
-    }
-    h3{
-      position: absolute;
-      color: white;
-      margin-top: 1%;
-      margin-left: 0%;
-    }
-    h1{
-      position: absolute;
-      color: white;
-      margin-top: 3%;
-      margin-left: 0%;
-    }
+    
