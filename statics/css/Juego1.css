@@ -11,6 +11,124 @@ body
   justify-content: center;
 }
 
+
+button{
+  border-radius: 50%;
+  position: absolute;
+  padding: 20px;
+  margin-top: 30%;
+  width: 70px;
+  height: 70px;
+  transition: all 0.5s ease;
+}
+
+span
+{
+  position: absolute;
+  margin-top: 40%;
+  color:white;
+}
+
+
+
+img
+{
+  width: 200px;
+  position: absolute;
+  margin-top: -10%;
+}
+
+header {
+  margin-top: -20%;
+  background-color: #000000;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  background-color: #243140;
+}
+
+i{
+  position: absolute;
+  margin-left: 85%;
+  color: red;
+  font-size: 30px;;
+}
+
+.body{
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 5%;
+  width: 50%;
+  justify-content: center;
+}
+
+
+.logo{
+  width: 70px;
+  height: 60px;
+  float: right;
+}
+
+.modal{
+  background-color: rgba(50,50,50,0.5);
+  display: none;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal .contento{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.modal .contento .head{
+  width: 100%;
+  line-height: 3;
+  box-sizing: border-box;
+  padding-left: 2em;
+  border-bottom:  2px solid gray;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 #canvas{
   margin-top: 20%;
   border: 2px solid #040561;
@@ -33,17 +151,26 @@ body
   margin-top: 20%;
   margin-left: 0%;
 }
-button{
-  border-radius: 50%;
-  position: absolute;
-  padding: 20px;
-  margin-top: 30%;
-  width: 70px;
-  height: 70px;
-  transition: all 0.5s ease;
+#logo-header {
+	float: left;
+	padding: 3px 0 0 20px;
+	text-decoration: none;
 }
-
-
+#logo-header:hover {
+	color: #0b76a6;
+}
+#t2
+{
+  margin-left: 20%;
+}
+#t3
+{
+  margin-left: 40%;
+}
+#t4
+{
+  margin-left: -20%;
+}
 #reiniciar
 {
   background-color: #00f462;
@@ -97,129 +224,6 @@ button{
   cursor: pointer;
 }
 
-
-span
-{
-  position: absolute;
-  margin-top: 40%;
-  color:white;
-}
-
-#t2
-{
-  margin-left: 20%;
-}
-#t3
-{
-  margin-left: 40%;
-}
-#t4
-{
-  margin-left: -20%;
-}
-
-img
-{
-  width: 200px;
-  position: absolute;
-  margin-top: -10%;
-}
-
-header {
-  margin-top: -20%;
-  background-color: #000000;
-  width: 100%;
-  position: fixed;
-  z-index: 0;
-}
-
-header nav {
-  float: right;
-}
-
-header nav ul {
-  list-style: none;
-  overflow: hidden;
-}
-
-header nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
-
-header nav ul li a {
-  display: block;
-  padding: 25px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-header nav ul li:hover {
-  background-color: #243140;
-}
-
-#logo-header {
-	float: left;
-	padding: 3px 0 0 20px;
-	text-decoration: none;
-}
-#logo-header:hover {
-	color: #0b76a6;
-	}
-
-.logo{
-  width: 70px;
-  height: 60px;
-  float: right;
-}
-i{
-  position: absolute;
-  margin-left: 85%;
-  color: red;
-  font-size: 30px;;
-}
-.modal{
-  background-color: rgba(50,50,50,0.5);
-  display: none;
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.modal .contento{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height: 80%;
-  background-color: white;
-  border-radius: 5px;
-}
-
-.modal .contento .head{
-  width: 100%;
-  line-height: 3;
-  box-sizing: border-box;
-  padding-left: 2em;
-  border-bottom:  2px solid gray;
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-.body{
-  position: absolute;
-  margin-left: 1%;
-  margin-top: 5%;
-  width: 50%;
-  justify-content: center;
-}
 @media screen and (max-width: 1300px){
 
   button{
