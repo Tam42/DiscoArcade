@@ -13,10 +13,10 @@ Fiebre De Programar Por La Noche.<br>
 |Montse Báez| Paginas Intermedias, Base de Datos, Pac-man, README, Conexión Base de Datos, Sesión.|
 
 
-**Guia de Instalación del Proyecto:**<br>
+**Guía de Instalación del Proyecto:**<br>
 Para poder utilizar esta página se deberá descargar XAMPP en "https://www.apachefriends.org/es/index.html"<br>
 Antes de descargar los archivos lo primero a realizar, es descargar el repositorio dentro de la carpeta "xampp" en "htdocs". En ella se encontrarán las siguientes carpetas secundarias y su contenido:<br>
-|Carpetas Secundarias | Carpetas Terciarias o acrhivos|
+|Carpetas Secundarias | Carpetas Terciarias o archivos|
 |---------------------|-------------------------------|
 |docs| Se encontrará el respaldo de la Base de Datos (lleva la terminacion ".sql"). Al crear la base en su ordenador, deberá llevar el nombre "DB_DiscoArcade".
 |dynamics|Aquí se encontrarán las carpetas "php"(Donde se encontrarán todos los archivos con terminacion ".php") y "js" (Donde se encontrarán todos los archivos con terminacion ".js")|
@@ -43,7 +43,7 @@ Se crea la base de datos:<br>
 3.- CREATE DATABASE proyecto_dos; + enter<br>
 4.- USE proyecto_dos; + enter<br>
 5.- SOURCE DB_DiscoArcade; + enter<br><br>
-**Cracter´´´´isticas del Proyecto:**<br>
+**Cracterísticas del Proyecto:**<br>
 El proyecto se compone por una página de:<br><br>
 :red_circle: Inicio: Se mostrará un formulario, que pide el nombre y contraseña del usuarios.En un php se valida si el usuario existe en la base de datos, si existe pasará directamente a la sigiente página, de no ser así sus datos serán agregados a la base de datos y pasará a la siguiente página, al no guardarse la informacián con exito aparecerá el enunciado "No se a podido realizar su registro.".<br><br>
 :red_circle: Intermedias:De igual forma, esta página dependerá del usuario. Si es nuevo se le mostrarán opciones para escoger entre dos paletas de colores, que como será guardado en la base de datos es permanente, al no guardarse la información con exito aparecerá el enunciado "No se pudo guardar el color.".En caso contrario(si el usuario ya existia), se le dará la bienvenida al usuario, el cual tendrá que presionar la palabra comenzar para pasar a la sigiente parte.<br><br>
