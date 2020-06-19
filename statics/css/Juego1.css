@@ -1,0 +1,291 @@
+
+body
+{
+  background-image: url(https://image.freepik.com/vector-gratis/fondo-pared-ladrillo-textura-iluminada-luz-neon-oscura_91645-71.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+button{
+  border-radius: 50%;
+  position: absolute;
+  padding: 20px;
+  margin-top: 30%;
+  width: 70px;
+  height: 70px;
+  transition: all 0.5s ease;
+}
+
+span
+{
+  position: absolute;
+  margin-top: 40%;
+  color:white;
+}
+
+
+
+img
+{
+  width: 200px;
+  position: absolute;
+  margin-top: -10%;
+}
+
+header {
+  margin-top: -20%;
+  background-color: #000000;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  background-color: #243140;
+}
+
+i{
+  position: absolute;
+  margin-left: 85%;
+  color: red;
+  font-size: 30px;;
+}
+
+.body{
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 5%;
+  width: 50%;
+  justify-content: center;
+}
+
+
+.logo{
+  width: 70px;
+  height: 60px;
+  float: right;
+}
+
+.modal{
+  background-color: rgba(50,50,50,0.5);
+  display: none;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal .contento{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.modal .contento .head{
+  width: 100%;
+  line-height: 3;
+  box-sizing: border-box;
+  padding-left: 2em;
+  border-bottom:  2px solid gray;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#canvas{
+  margin-top: 20%;
+  border: 2px solid #040561;
+  background-color: black;
+}
+
+#puntaje
+{
+  position: absolute;
+  font-family: "Puntos";
+  color: white;
+  margin-top: 35%;
+  margin-left: -30%;
+}
+#puntaje2
+{
+  position: absolute;
+  font-family: "Puntos";
+  color: white;
+  margin-top: 20%;
+  margin-left: 0%;
+}
+#logo-header {
+	float: left;
+	padding: 3px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}
+#t2
+{
+  margin-left: 20%;
+}
+#t3
+{
+  margin-left: 40%;
+}
+#t4
+{
+  margin-left: -20%;
+}
+#reiniciar
+{
+  background-color: #00f462;
+  box-shadow: 0 4px 0 #107274;
+  border: 1px solid #019f41;
+
+}
+
+#finalizar
+{
+  margin-left: 20%;
+  background-color: #E0310D;
+  box-shadow: 0 4px 0 #8D310D;
+  border: 1px solid #8F1F09;
+}
+
+#menu
+{
+  margin-left: 40%;
+  background-color: #0164D6;
+  box-shadow: 0 4px 0 #004696;
+  border: 1px solid #0054B5;
+}
+
+#nuevo
+{
+  margin-left: -20%;
+  background-color: #FFEB1A;
+  box-shadow: 0 4px 0 #BAAC13;
+  border: 1px solid #BAAC13;
+}
+
+#reiniciar:hover
+{
+  background-color: #00A642;
+  box-shadow: 0 0px 0 #107274;
+  cursor: pointer;
+}
+
+#finalizar:hover
+{
+  background-color: #8F1F09;
+  box-shadow: 0 0px 0 #8F1F09;
+  cursor: pointer;
+}
+
+#menu:hover
+{
+  background-color: #0054B5;
+  box-shadow: 0 0px 0 #0054B5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px){
+
+  button{
+      margin-top: 25%;
+    }
+  span{
+    margin-top: 32%;
+
+  }
+  #puntaje
+  {
+    margin-top: 25%;
+    margin-left: -30%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+
+  button{
+      margin-top: 30%;
+    }
+  span{
+    margin-top: 35%;
+  }
+  #puntaje
+  {
+    margin-top: 30%;
+    margin-left: -30%;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 900px){
+
+  button{
+      margin-top: 35%;
+    }
+  span{
+    margin-top: 45%;
+  }
+  #puntaje
+  {
+    margin-top: 35%;
+    margin-left: -30%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px){
+
+  button{
+      margin-top: 45%;
+      width: 50px;
+      height: 50px;
+    }
+  span{
+    margin-top: 53%;
+  }
+  #puntaje
+  {
+    margin-top: 45%;
+    margin-left: -30%;
+    font-size: 25px;
+  }
+}

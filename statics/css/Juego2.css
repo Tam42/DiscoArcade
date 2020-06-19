@@ -1,0 +1,158 @@
+/*Elementos*/
+button{
+        border-radius: 50%;
+        height: 70px;
+        margin-top: 3%;
+        padding: 20px;
+        position: absolute;
+        transition: all 0.5s ease;
+        width: 70px;
+    }
+
+    span
+    {
+        color:white;
+        margin-top: 1%;
+        margin-left: 30%;
+        position: absolute;
+        left: 10px;
+    }
+    body{
+      background-image: url(https://image.freepik.com/vector-gratis/pared-ladrillo-luz-neon_47243-601.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      width: 100%;
+      height: 100vh;
+    }
+    h3{
+      color: white;
+      margin-left: 0%;
+      margin-top: 1%;
+      position: absolute;
+    }
+    h1{
+      color: white;
+      margin-left: 0%;
+      margin-top: 3%;
+      position: absolute;
+    }
+
+/*Clases*/
+.content{
+  display: flex;
+  height: 20vh;
+  margin-top: 5%;
+  position: relative;
+} 
+
+.grid {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    }
+
+    .grid div {
+        height: 70px;
+        width: 70px;
+    }
+
+    .one{
+        background-image: url(../images/disk.png);
+        background-size: cover;
+    }
+    .two{
+        background-image: url(../images/control.png);
+        background-size: cover;
+    }
+    .three{
+        background-image: url(../images/game.png);
+        background-size: cover;
+    }
+    .four{
+        background-image: url(../images/juego.png);
+        background-size: cover;
+    }
+    .five{
+        background-image: url(../images/ra.png);
+        background-size: cover;
+    }
+    .six{
+        background-image: url(../images/rubik.png);
+        background-size: cover;
+    }
+    .seven{
+        background-image: url(../images/console.png);
+        background-size: cover;
+    }
+/*Ides*/
+#reiniciar
+{
+  background-color: #00f462;
+  border: 1px solid #019f41;
+  box-shadow: 0 4px 0 #107274;
+
+}
+
+#finalizar
+{
+    background-color: #E0310D;
+    border: 1px solid #8F1F09;
+    box-shadow: 0 4px 0 #8D310D;
+    margin-left: 20%;
+}
+
+#menu
+{
+    background-color: #0164D6;
+    border: 1px solid #0054B5;
+    box-shadow: 0 4px 0 #004696;
+    margin-left: 40%;
+}
+
+#nuevo
+{
+    background-color: #FFEB1A;
+    border: 1px solid #BAAC13;
+    box-shadow: 0 4px 0 #BAAC13;
+    margin-left: -20%;
+}
+
+#reiniciar:hover
+{
+  background-color: #00A642;
+  box-shadow: 0 0px 0 #107274;
+  cursor: pointer;
+}
+
+#finalizar:hover
+{
+  background-color: #8F1F09;
+  box-shadow: 0 0px 0 #8F1F09;
+  cursor: pointer;
+}
+
+#menu:hover
+{
+  background-color: #0054B5;
+  box-shadow: 0 0px 0 #0054B5;
+  cursor: pointer;
+}
+#t2
+{
+  margin-left: 20%;
+}
+#t3
+{
+  margin-left: 40%;
+}
+#t4
+{
+  margin-left: -20%;
+}
+
+    
