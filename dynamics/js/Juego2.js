@@ -1,3 +1,4 @@
+//Definir variables y creación de elementos
 let body = document.getElementsByTagName("body");
 let side = 8;
 let main = document.createElement("div");
@@ -20,6 +21,7 @@ let dropidsquare;
 let startcheck;
 let check;
 
+//Arreglo de imágenes
 const color=[
    'one',
    'two',
@@ -29,6 +31,8 @@ const color=[
    'six',
    'seven'
 ];
+
+//Validación de cookies
 let siHay;
 let existentes = document.cookie;
 if (existentes)
@@ -58,6 +62,7 @@ else
 let c = new Date()
 c.setTime(c.getTime()-10);
 
+//Botones 
 let finalizar = document.getElementById("finalizar");
 let menu = document.getElementById("menu");
 menu.addEventListener("click",()=>{
@@ -79,7 +84,7 @@ finalizar.addEventListener("click",()=>{
   window.location = "./principal.html";
 });
 
-
+//Contenedor
 function containerColors(){
 for (let i=0; i<side*side; i++){
     const square = document.createElement("div");
@@ -94,6 +99,7 @@ for (let i=0; i<side*side; i++){
 
 containerColors();
 
+//Eventos
 tsquares.forEach((square) =>{
     square.addEventListener("dragend", dragend),
     square.addEventListener("dragstart", dragstart),
@@ -103,6 +109,7 @@ tsquares.forEach((square) =>{
     square.addEventListener("drop", drop)
 })
 
+//Valida el primer div obtenido
 function dragstart(){
     startcolor = this.classList[0];
     startidsquare = parseInt(this.id);
@@ -121,11 +128,13 @@ function dragenter(event){
 function dragleave(){
 }
 
+//Valida el div por el que se cambia
 function drop(){
     dropcolor= this.classList[0];
     dropidsquare = parseInt(this.id);
   }
 
+//Remueve y agrega clases(intercambia clases)
 function dragend(){
     if(dropidsquare === startidsquare+1 || dropidsquare === startidsquare+side || dropidsquare== startidsquare-1 || dropidsquare== startidsquare-side){
         tsquares[dropidsquare].classList.remove(dropcolor);
