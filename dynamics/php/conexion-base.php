@@ -1,4 +1,5 @@
 <?php
+//Obtnecion de credenciales para DB
   define("USER","root");
   define("HOST","localhost");
   define("PASSWORD","root");

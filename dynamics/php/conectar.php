@@ -1,4 +1,5 @@
 <?php
+//inicio de sesión.
   include("conexion-base.php");
   $conectar= connect ("proyecto_dos");
   if(!$conectar) {

@@ -1,4 +1,5 @@
 <?php
+//Obtnecion de paleta de colores de usuario.
 include("conexion-base.php");
 $conectar= connect ("proyecto_dos");
 if(!$conectar) {

@@ -1,4 +1,5 @@
 <?php
+//Actualización de récords en base de datos.
 include("conexion-base.php");
 $conectar= connect ("proyecto_dos");
 if(!$conectar) {

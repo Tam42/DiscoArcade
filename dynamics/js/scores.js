@@ -1,3 +1,4 @@
+/*Mediante DOM y peticiones imprimó los 5 scores más altos*/
 fetch("../dynamics/php/puntajes.php?valor=1")
 .then((response)=>{
   return resp = response.json();

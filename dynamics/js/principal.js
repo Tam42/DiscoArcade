@@ -1,3 +1,4 @@
+//Redireccionamiento a partir de ventos en la página principal.
 let paleta;
 
 fetch("../dynamics/php/paleta.php")

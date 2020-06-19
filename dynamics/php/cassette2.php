@@ -1,4 +1,5 @@
 <?php
+//Almacenamiento de paleta de colores del usuario nuevo.
 include("conexion-base.php");
 $conectar= connect ("proyecto_dos");
 if(!$conectar) {

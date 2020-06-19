@@ -1,4 +1,5 @@
 <?php
+//Obtnecion de datos para imprimir en pantalla SCORE.
 include("conexion-base.php");
 $conectar= connect ("proyecto_dos");
 if(!$conectar) {
