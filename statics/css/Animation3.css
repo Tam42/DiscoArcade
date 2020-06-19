@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+
+/*Inicia animación*/
+div{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    background-image: url(../media/mina.png);
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+/*Ejecuta animación*/
+@keyframes move{
+    from{
+        left: 0px;
+        top: 200px;
+    }
+    to{
+        left: 0px;
+        top: 0px;
+    }
+}
